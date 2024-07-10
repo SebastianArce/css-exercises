@@ -1,0 +1,19 @@
+.odd-row {
+    background-color: rgb(204, 109, 109);
+    font-family: Verdana "DejaVu Sans" "sans-serif";
+}
+
+#second-element {
+    color: rgb(35, 35, 148);
+    font-size: 36px;
+}
+
+.odd-row.cool {
+    font-size: 24px;
+}
+
+#fourth-element {
+    background-color: rgb(100, 158, 100);
+    font-size: 24px;
+    font-weight: bold;
+}
