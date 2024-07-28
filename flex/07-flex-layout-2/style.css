@@ -14,7 +14,7 @@ body {
   font-weight: 900;
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 
 .footer {
@@ -32,6 +32,7 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
 }
 
 .card {
@@ -48,12 +49,14 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  padding: 48px;
+  gap: 32px;
   /* flex: 1; */
 }
 
 .card {
-  width: 200px;
-  margin: 20px;
+  width: 300px;
+  padding: 16px;
 }
 
 ul {
@@ -67,5 +70,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: white
+  color: white;
+  font-size: 24px;
 }
